@@ -1,0 +1,212 @@
+/* * Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* * Mobile-First Styles */
+
+/* * Header Styles */
+header {
+    background-color: #2E323F;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;  
+    margin-bottom: 0;
+}
+
+.logo {
+    padding: 1rem 1rem 0;
+}
+
+.nav__list {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.nav__item {
+    text-align: center;
+    padding: .5rem 0 0;
+}
+
+.nav__item:nth-child(4) {
+    padding-top: 1.5rem;
+}
+
+/* ! Margin Issue */
+main {
+    /* margin-top: -2.3rem; */
+}
+
+.intro_container {
+    background-color: #3B4050;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 0; */
+    /* padding: 0; */
+    
+}
+
+.intro_container {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+.intro__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #FFF;
+    padding: 2rem 2rem 0;
+    line-height: 3.5rem;
+}
+
+.gold_text {
+    color: #A59678;
+}
+
+.intro__text {
+    padding: 0 2rem 2rem;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 2rem;
+}
+
+.intro__btn_container {
+    margin: 2.5rem 0 1rem;
+    text-align: center;
+}
+
+.intro__btn {
+    padding: .5rem 2rem;
+    background-color: #A59678;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.second_container {
+    background-color: #EFEFEF;
+    padding: 2rem 2rem 3rem;
+}
+
+.second_container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #A59678;
+}
+
+.second_container p {
+    font-size: 18px;
+}
+
+.main_container {
+    padding: 0 2rem;
+}
+
+.main__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #A59678;
+}
+
+.main__subtext {
+    font-size: 21px;
+    line-height: 2rem;
+}
+
+.image__container {
+    display: flex;
+    justify-content: center;
+}
+
+.aside__container {
+    background-color: #3B4050;
+    color: #FFF;
+    margin: 2rem 0 2rem;
+    padding: .1rem 1rem;
+}
+
+.aside__container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.aside__container p {
+    font-size: 18px;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer_container {
+    background-color: #3B4050;
+    padding: 2rem;
+}
+
+.footer_container h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.footer__subtext h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #A59678;
+    font-size: 21px;
+}
+
+.footer__subtext p {
+    color: #FFF;
+    line-height: 1.5rem;
+}
+
+.footer__subtext ul {
+    list-style: none;
+    padding-left: 0;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.footer__subtext li {
+    margin: .5rem 0 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link:hover {
+    opacity: 65%;
+}
+
+.link:focus {
+    opacity: 65%;
+}
+
+
+
+
+
+
