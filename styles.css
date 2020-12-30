@@ -5,8 +5,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 1000px;
 }
 
 img {
@@ -50,33 +51,27 @@ header {
     padding-top: 1.5rem;
 }
 
-/* ! Margin Issue */
-main {
-    /* margin-top: -2.3rem; */
-}
-
-.intro_container {
-    background-color: #3B4050;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* margin: 0; */
-    /* padding: 0; */
-    
+.nav__item:last-child {
+    background-color: #A59678;
+    padding: .15rem .8rem .25rem;
+    border-radius: 50px;
+    margin-top: 1rem;
 }
 
 .intro_container {
     font-family: 'Oswald', sans-serif;
     font-size: 36px;
+    background-color: #3B4050;
+    padding: 2rem 2rem 4rem;
 }
 
 .intro__title {
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
     color: #FFF;
-    padding: 2rem 2rem 0;
     line-height: 3.5rem;
+
+    outline: 2px solid red;
 }
 
 .gold_text {
@@ -84,14 +79,15 @@ main {
 }
 
 .intro__text {
-    padding: 0 2rem 2rem;
     color: #FFF;
     font-size: 24px;
     line-height: 2rem;
+
+    outline: 2px solid white;
 }
 
 .intro__btn_container {
-    margin: 2.5rem 0 1rem;
+    margin: 4rem 0 1rem;
     text-align: center;
 }
 
@@ -122,7 +118,7 @@ main {
 }
 
 .main_container {
-    padding: 0 2rem;
+    padding: 2rem 2rem 3rem;
 }
 
 .main__title {
@@ -161,7 +157,7 @@ main {
 
 .footer_container {
     background-color: #3B4050;
-    padding: 2rem;
+    padding: 3rem 2rem 3rem;
 }
 
 .footer_container h2 {
@@ -205,7 +201,61 @@ main {
     opacity: 65%;
 }
 
+ /* * Tablet Media Query */
+ @media screen and (min-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+    }
 
+    .nav_bar {
+        padding-right: 1rem;
+    }
+
+    .nav__list {
+        display: flex;
+
+    }
+
+    .nav__item {
+        padding-left: 1rem;
+    }
+
+    .nav__item:nth-child(4) {
+        padding-top: .5rem;
+        padding-left: 2rem;
+    }
+
+    .nav__item:last-child {
+        margin-top: .4rem;
+        margin-left: 1rem;
+    }
+
+    .intro__title {
+        width: 70%;
+    }
+
+    .intro__text {
+
+    }
+
+    .second_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .row + .row {
+        margin-left: 1.5rem;
+    }
+
+    aside {
+        display: flex;
+    }
+
+ }
 
 
 
